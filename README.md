@@ -79,6 +79,3 @@ List of required Python libraries.
 ## Author Information
 - **Name:** Abdelrahman Nasser
 - **Email:** Abdelrahmannasser139@gmail.com
-## Author Information
-- **Name:** Abdelrahman Nasser
-- **Email:** Abdelrahmannasser139@gmail.com
