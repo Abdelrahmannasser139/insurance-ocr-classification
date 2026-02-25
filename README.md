@@ -19,7 +19,6 @@ This project aims to build an Optical Character Recognition (OCR) system specifi
 - Scikit-learn
 - Pandas
 - NumPy
-- Flask (for web deployment)
 
 ## Dataset Information
 The dataset consists of scanned images of various insurance documents, along with their labeled categories. The images are pre-processed to improve OCR accuracy. The dataset details include:
@@ -35,19 +34,22 @@ The dataset consists of scanned images of various insurance documents, along wit
 
 ## Project Structure
 ```
-insurance-ocr-classification/
+insurance-ocr-classification
 │
-├── data/                  # Dataset storage
-├── src/                   # Source code
-│   ├── preprocessing.py    # Data preprocessing scripts
-│   ├── model.py           # Model architecture
-│   ├── train.py           # Training scripts
-│   └── app.py             # Flask web application
-│
-├── models/                # Trained models
-├── requirements.txt       # Package dependencies
-└── README.md              # Project documentation
+├── notebook.ipynb
+├── ocr_insurance_dataset.pkl
+├── README.md
+└── requirements.txt
 ```
+
+### notebook.ipynb
+Contains the full machine learning workflow including preprocessing, training, and evaluation.
+
+### ocr_insurance_dataset.pkl
+Serialized dataset used for training the model.
+
+### requirements.txt
+List of required Python libraries.
 
 ## How to Run Instructions
 1. Clone the repository:
@@ -59,15 +61,6 @@ insurance-ocr-classification/
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the training script:
-   ```bash
-   python src/train.py
-   ```
-4. Start the Flask application:
-   ```bash
-   python src/app.py
-   ```
-5. Open your browser and go to `http://localhost:5000`.
 
 ## Applications
 - Automated insurance claims processing
