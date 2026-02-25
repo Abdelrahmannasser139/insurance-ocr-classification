@@ -80,6 +80,5 @@ insurance-ocr-classification/
 - Experience in building machine learning models and deploying them as web applications.
 
 ## Author Information
-- **Name:** Abdelrahmannasser139
-- **Date:** 2026-02-25
-- **Email:** author@example.com (Replace with actual email)
+- **Name:** Abdelrahman Nasser
+- **Email:** Abdelrahmannasser139@gmail.com 
