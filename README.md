@@ -1,8 +1,8 @@
 # Insurance OCR Classification
 
-<div align="center">
-  ![Insurance Document OCR Classification](Insurance%20Document%20OCR%20Classification.png)
-</div>
+<p align="center">
+  <img src="Insurance%20Document%20OCR%20Classification.png" alt="Insurance Document OCR Classification">
+</p>
 
 ## Overview
 This project aims to build an Optical Character Recognition (OCR) system specifically designed for classifying insurance documents. The system utilizes machine learning techniques to accurately extract and classify information from scanned documents.
